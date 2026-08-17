@@ -19,16 +19,9 @@ test('login test', async ({ page, context }) => {
   await loginPage.validLogin(testData.username, testData.password);
   await expect(page).toHaveURL('https://comeon.cleverdolphin.se/sv/sportsbook?sidebar=account');
   await loginPage.homepage();
-  await logoutPage.logout();
-  
-
- test ('logout test', async ({ page }) => {
-
   const logoutPage = pomanager.getLogoutPage();
   await logoutPage.logout();
-  
-
- });
+ 
 });
 
 
