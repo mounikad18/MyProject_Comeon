@@ -1,16 +1,27 @@
 pipeline {
     agent any
 
-     environment {
+    environment {
         PATH = "/usr/local/bin:/usr/bin:/bin:$PATH"
     }
-    
+
     triggers {
         cron('0 8 * * *')
     }
 
     stages {
 
+        stage('Check Node and NPM') {
+            steps {
+                sh '''
+                    echo "PATH=$PATH"
+                    which node
+                    which npm
+                    node --version
+                    npm --version
+                '''
+            }
+        }
 
         stage('Install Dependencies') {
             steps {
@@ -20,7 +31,7 @@ pipeline {
 
         stage('Install Playwright Browsers') {
             steps {
-                sh 'npx playwright install --with-deps chromium'
+                sh 'npx playwright install chromium'
             }
         }
 
@@ -33,7 +44,8 @@ pipeline {
 
     post {
         always {
-            archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'playwright-report/**',
+                allowEmptyArchive: true
         }
 
         success {
