@@ -55,5 +55,18 @@ pipeline {
         failure {
             echo 'Playwright tests FAILED'
         }
+
+
+        always {
+            publishHTML([
+                allowMissing: true,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: 'playwright-report',
+                reportFiles: 'index.html',
+                reportName: 'Playwright HTML Report'
+            ])
+        
+    }
     }
 }
