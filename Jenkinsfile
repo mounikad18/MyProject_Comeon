@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+     environment {
+        PATH = "/usr/local/bin:/usr/bin:/bin:$PATH"
+    }
+    
     triggers {
         cron('0 8 * * *')
     }
