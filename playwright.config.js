@@ -1,23 +1,50 @@
 import { defineConfig, devices } from '@playwright/test';
 
-
-/**
- * @see https://playwright.dev/docs/test-configuration
- */
 export default defineConfig({
   testDir: './tests',
+
   timeout: 40 * 1000,
+
   expect: {
-    timeout: 5000
+    timeout: 5000,
   },
+
   reporter: 'html',
+
   fullyParallel: true,
-  
+  workers: 5,
+
   use: {
-   browserName: 'chromium',
-   headless: false,
-    screenshot: 'on',
-    trace: 'on',
+    browserName: 'chromium',
+    headless: false,
+    screenshot: 'only-on-failure',
+    trace: 'retain-on-failure',
   },
+
+  /*projects: [
+    {
+      name: 'chromium',
+      use: {
+        ...devices['Desktop Chrome'],
+        browserName: 'chromium',
+      },
+    },
+
+    {
+      name: 'firefox',
+      use: {
+        ...devices['Desktop Firefox'],
+        browserName: 'firefox',
+      },
+    },
+
+    {
+      name: 'webkit',
+      use: {
+        ...devices['Desktop Safari'],
+        browserName: 'webkit',
+      },
+    },
+  ],*/
 
 });
