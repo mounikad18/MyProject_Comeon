@@ -1,4 +1,11 @@
+
 {
-    "username" :"tuser2714835170",
-    "password" :"Comeon123*"
+    "user1": {
+        "username": "tuser2714835170",
+        "password": "Comeon123*"
+    },
+    "user2": {
+        "username": "tuser5824245379",
+        "password": "Comeon123*"
+    }
 }

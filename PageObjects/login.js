@@ -9,6 +9,7 @@ class login {
         this.username=page.locator('#loginEmail');
         this.password=page.locator('#loginPassword');
         this.loginButton=page.locator('[data-at="login-button-usernametab"]');
+        this.welcomepopup=page.locator('[class*="welcome-screen-popup"] svg[data-at="svg-close"]');
         this.closeButton = page.locator('[data-at="close-button-general"]');
         this.profileIcon = page.locator('button[class="account-icon-header"]');
     }
@@ -32,6 +33,7 @@ class login {
 
     async homepage()
     {
+        await this.welcomepopup.click();
         await expect(this.closeButton).toBeVisible();
         await this.closeButton.click();
         await this.profileIcon.click();
