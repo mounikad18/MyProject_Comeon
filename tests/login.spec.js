@@ -16,7 +16,7 @@ test('login test', async ({ page, context }) => {
   const pomanager = new POManager(page);
   const loginPage = pomanager.getLoginPage();
   await loginPage.goto();
-  await loginPage.validLogin(testData.username, testData.password);
+  await loginPage.validLogin(testData.user1.username, testData.user1.password);
   await expect(page).toHaveURL('https://comeon.cleverdolphin.se/sv/sportsbook?sidebar=account');
   await loginPage.homepage();
   const logoutPage = pomanager.getLogoutPage();

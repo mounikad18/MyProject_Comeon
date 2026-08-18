@@ -12,7 +12,7 @@ export default defineConfig({
   reporter: 'html',
 
   fullyParallel: true,
-  workers: 5,
+  //workers: 5,
 
   use: {
     browserName: 'chromium',
