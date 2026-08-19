@@ -7,5 +7,13 @@
     "user2": {
         "username": "tuser5824245379",
         "password": "Comeon123*"
+    },
+    "apiuser": {
+        "email": "tuser2714835170",
+        "password": "Comeon123*",
+        "type": "BACKDOOR_USERNAME_PASSWORD",
+        "captchaToken": "",
+        "deviceId": "58d1b354-2859-4fd9-a16b-ef15c2193b39",
+        "isComplianceTermsAccepted": false
     }
 }
