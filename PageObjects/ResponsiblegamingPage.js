@@ -1,4 +1,4 @@
-class responsiblegaming {
+class ResponsiblegamingPage {
 
     constructor(page) {
         this.page = page;
@@ -16,4 +16,4 @@ class responsiblegaming {
 
 }
 
-module.exports = { responsiblegaming };
+module.exports = { ResponsiblegamingPage };

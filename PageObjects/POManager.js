@@ -1,19 +1,19 @@
-const { login } = require('./login');
-const { logout } = require('./logout');
-const { responsiblegaming } = require('./responsiblegaming');
+const { LoginPage } = require('./LoginPage');
+const { LogoutPage } = require('./LogoutPage');
+const { ResponsiblegamingPage } = require('./ResponsiblegamingPage');
 class POManager {
     constructor(page) {
         this.page = page;
-        this.loginPage = new login(page);
-        this.logoutPage = new logout(page);
-        this.responsiblegamingPage = new responsiblegaming(page);
+        this.loginPage = new LoginPage(page);
+        this.logoutPage = new LogoutPage(page);
+        this.responsiblegamingPage = new ResponsiblegamingPage(page);
     }
 
     getLoginPage() {
         return this.loginPage;
     }
 
-    getResponsibleGamingPage() {
+    getResponsiblegamingPage() {
         return this.responsiblegamingPage;
     }
 

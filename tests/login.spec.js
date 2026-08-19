@@ -1,9 +1,8 @@
 
-import { test, expect } from '@playwright/test';
-import { POManager } from '../PageObjects/POManager';
 import testData from '../utils/testdata.json';
+import { test, expect } from '../fixtures/baseFixture.js';
 
-test('login test', async ({ page, context }) => {
+test('@smoke @regression login test', async ({ page, context, poManager }) => {
 
   await context.addCookies([
     {
@@ -13,13 +12,14 @@ test('login test', async ({ page, context }) => {
       path: '/'
     }
   ]);
-  const pomanager = new POManager(page);
-  const loginPage = pomanager.getLoginPage();
+ // const pomanager = new POManager(page);
+  const loginPage = poManager.getLoginPage();
   await loginPage.goto();
   await loginPage.validLogin(testData.user1.username, testData.user1.password);
   await expect(page).toHaveURL('https://comeon.cleverdolphin.se/sv/sportsbook?sidebar=account');
+  await loginPage.closeWelcomePopup();
   await loginPage.homepage();
-  const logoutPage = pomanager.getLogoutPage();
+  const logoutPage = poManager.getLogoutPage();
   await logoutPage.logout();
 
 });

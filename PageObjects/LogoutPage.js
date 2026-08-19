@@ -1,4 +1,4 @@
-class logout {
+class LogoutPage {
     constructor(page) {
         this.page = page;
         this.logoutButton = page.locator('[data-at="logout-button-myaccount"]');
@@ -10,4 +10,4 @@ class logout {
         await this.logoutButton.click();
     }
 }
-module.exports = { logout };
+module.exports = { LogoutPage };

@@ -1,7 +1,7 @@
 import { test, expect, request as playwrightRequest } from '@playwright/test';
 import testData from '../utils/testdata.json';
 
-test('API Login test', async () => {
+test('@api API Login test', async () => {
 
     const user = testData.apiuser;
 

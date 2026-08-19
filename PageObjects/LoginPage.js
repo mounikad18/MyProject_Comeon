@@ -1,6 +1,6 @@
 const { expect } = require("@playwright/test");
 
-class login {
+class LoginPage {
     constructor(page)
     {
         this.page=page;
@@ -16,12 +16,15 @@ class login {
 
     async goto()
     {
-        await this.page.goto('https://comeon.cleverdolphin.se/sv');
+        await this.page.goto('baseURL');
+        await this.page.waitForLoadState('networkidle');
         await this.acceptCookies.click();
       //  await this.page.waitForLoadState('networkidle');
         await this.login.click();
 
     }
+
+   
 
     async validLogin(username, password)
     {
@@ -30,14 +33,18 @@ class login {
         await this.loginButton.click();
 
     }
-
-    async homepage()
+  async closeWelcomePopup()
     {
         await this.welcomepopup.click();
+        
+    }
+    async homepage()
+    {
+
         await expect(this.closeButton).toBeVisible();
         await this.closeButton.click();
         await this.profileIcon.click();
 
     }
 }
-module.exports = { login};
+module.exports = { LoginPage};
