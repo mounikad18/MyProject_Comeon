@@ -1,4 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
+import { environment } from './config/environment.js';
 
 export default defineConfig({
   testDir: './tests',
@@ -15,6 +16,7 @@ export default defineConfig({
   //workers: 5,
 
   use: {
+    baseURL: environment.baseURL,
     browserName: 'chromium',
     headless: false,
     screenshot: 'only-on-failure',
