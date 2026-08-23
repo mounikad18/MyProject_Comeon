@@ -2,7 +2,7 @@
 
 import { test, expect } from '../fixtures/baseFixture.js';
 
-test.only ('@regression Responsible Gaming test', async ({ authenticatedPage, poManager }) => {
+test('@regression Responsible Gaming test', async ({ authenticatedPage, poManager }) => {
 
   
   
