@@ -10,7 +10,7 @@ export const test = base.extend({
 
         await use(poManager);
     },
-
+/*
     authenticatedPage: async ({ page, context, poManager }, use) => {
 
         await context.addCookies([
@@ -32,6 +32,7 @@ export const test = base.extend({
         // Give authenticated page to test
         await use(page);
     },
+*/
 
 });
 export { expect };

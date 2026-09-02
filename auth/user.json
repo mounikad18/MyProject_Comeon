@@ -1,0 +1,458 @@
+{
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "value": "09AKhCRwi3We-u-QdzkG-zTVm-8YuSTbVx8pqmgbZRWCiN8cgGRTzv4Le9IPw9618eH0ZhI8vLT8rTIFn0PyQHnwA",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1803893915.781671,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "forceusernamepassword",
+      "value": "true",
+      "domain": "comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "franchise",
+      "value": "2",
+      "domain": "comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "franchiseCode",
+      "value": "SWEDEN_COMEON",
+      "domain": ".comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "locale",
+      "value": "sv_SE",
+      "domain": ".comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "useMobile",
+      "value": "true",
+      "domain": ".comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "showAppBanner",
+      "value": "true",
+      "domain": ".comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": 1796231140.879781,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CASINO_KEY",
+      "value": "a75a6ceff17df30811d4189b913feec4",
+      "domain": "comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ajs_group_id",
+      "value": "null",
+      "domain": ".cleverdolphin.se",
+      "path": "/",
+      "expires": 1819877910,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ajs_anonymous_id",
+      "value": "%2277d09960-d179-4de3-a778-0dc2a98eb9f6%22",
+      "domain": ".cleverdolphin.se",
+      "path": "/",
+      "expires": 1819877910,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1755462666.1788341911",
+      "domain": ".cleverdolphin.se",
+      "path": "/",
+      "expires": 1796117910,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1931019238.1788341911",
+      "domain": ".cleverdolphin.se",
+      "path": "/",
+      "expires": 1822901911.019358,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "value": "2026-09-02T09:38:33.840Z",
+      "domain": "comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": 1822901913.840093,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_clck",
+      "value": "q0fs5f%5E2%5Eg94%5E1%5E2436",
+      "domain": ".cleverdolphin.se",
+      "path": "/",
+      "expires": 1819877913,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Wed+Sep+02+2026+11%3A38%3A33+GMT%2B0200+(Central+European+Summer+Time)&version=202606.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&genVendors=V8%3A0%2CV3%3A0%2CV9%3A0%2CV4%3A0%2CV6%3A0%2CV2%3A0%2C&consentId=85ba66ff-c502-41fa-a2e2-09f19082c333&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0004%3A1&fclco=&lastConsentTs=1788341913&intType=1&crTime=1788341913981",
+      "domain": "comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": 1822901913.981279,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "1FD7E38D338E65CB0781F445320164FE",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1822037915.071956,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1788946715.07201,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SRM_B",
+      "value": "1FD7E38D338E65CB0781F445320164FE",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1822037915.072034,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SM",
+      "value": "C",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "1FD7E38D338E65CB0781F445320164FE",
+      "domain": ".clarity.ms",
+      "path": "/",
+      "expires": 1822037914.115274,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1788946714.115293,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ANONCHK",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1788342514.115305,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "d_id",
+      "value": "2904d42b-562f-46e9-ba25-0a9a9b98aa03",
+      "domain": ".comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": 1819877915,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sessionId",
+      "value": "42_1788341916178328dc4d31f25a0ca71a72e9_784ad4b3e848f42143_0",
+      "domain": ".comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "login",
+      "value": "true",
+      "domain": "comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "loggedInTime",
+      "value": "1788341916281",
+      "domain": ".comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "lastProduct",
+      "value": "sportsbook",
+      "domain": ".comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ajs_user_id",
+      "value": "%22163892040%22",
+      "domain": ".cleverdolphin.se",
+      "path": "/",
+      "expires": 1819877916,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "player-points",
+      "value": "10525",
+      "domain": ".comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "player-balance",
+      "value": "0",
+      "domain": ".comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "g_uid",
+      "value": "8cd3072b6409e295d3f0a9f0b1e5941e7652de3084ec1ef24aad",
+      "domain": "api.graphyte.ai",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "anonymousSessionId",
+      "value": "bcb946e3-b3eb-431d-996f-c4dd50ab1ee9",
+      "domain": ".comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_clsk",
+      "value": "1uky7is%5E1788341917324%5E3%5E1%5El.clarity.ms%2Fcollect",
+      "domain": ".cleverdolphin.se",
+      "path": "/",
+      "expires": 1788428317,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "C",
+      "value": "1",
+      "domain": ".adform.net",
+      "path": "/",
+      "expires": 1790933917.538895,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "uid",
+      "value": "3432624605167581117",
+      "domain": ".adform.net",
+      "path": "/",
+      "expires": 1793525917.553617,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SEUNCY",
+      "value": "B6D1869D26BDCC36",
+      "domain": ".semasio.net",
+      "path": "/",
+      "expires": 1819877917.801791,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_DGG95YFBQJ",
+      "value": "GS2.1.s1788341911$o1$g1$t1788341917$j57$l0$h0",
+      "domain": ".cleverdolphin.se",
+      "path": "/",
+      "expires": 1822901917.919108,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://comeon.cleverdolphin.se",
+      "localStorage": [
+        {
+          "name": "ada-embed-manifest-cache",
+          "value": "\"{\\\"versions\\\":[{\\\"tag\\\":\\\"stable\\\",\\\"hash\\\":\\\"6fbc372e77dbc7bf56085404e9f7883ec3da43a0\\\",\\\"weight\\\":1}]}\""
+        },
+        {
+          "name": "ada-embed_chat-manifest-cache",
+          "value": "\"{\\\"versions\\\":[{\\\"tag\\\":\\\"stable\\\",\\\"hash\\\":\\\"514be4e006dfea613cc9b036189470d692d1133b\\\",\\\"weight\\\":1}]}\""
+        },
+        {
+          "name": "segmentio.ea3e88ee-5801-4257-80a9-943de1299967.ack",
+          "value": "1788341917764"
+        },
+        {
+          "name": "ajs_group_properties",
+          "value": "{}"
+        },
+        {
+          "name": "segmentio.ea3e88ee-5801-4257-80a9-943de1299967.reclaimEnd",
+          "value": "null"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gsid_dc\":{\"value\":{\"joinId\":\"pk7jDEm-4fyDGOlqVeEZko6xavA-mgz5wA\",\"lastJoinedTimeMs\":1788341910792},\"expires\":1788342210792},\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1788341910793},\"expires\":1796117910793}}"
+        },
+        {
+          "name": "segmentio.ea3e88ee-5801-4257-80a9-943de1299967.reclaimStart",
+          "value": "null"
+        },
+        {
+          "name": "ada-embed_chat-assigned-version",
+          "value": "\"514be4e006dfea613cc9b036189470d692d1133b\""
+        },
+        {
+          "name": "segmentio.ea3e88ee-5801-4257-80a9-943de1299967.queue",
+          "value": "[]"
+        },
+        {
+          "name": "segmentio.ea3e88ee-5801-4257-80a9-943de1299967.inProgress",
+          "value": "{}"
+        },
+        {
+          "name": "login-form",
+          "value": "{\"username\":\"\",\"email\":\"tuser2714835170\"}"
+        },
+        {
+          "name": "ada-embed-assigned-version",
+          "value": "\"6fbc372e77dbc7bf56085404e9f7883ec3da43a0\""
+        },
+        {
+          "name": "ada-functional-storage",
+          "value": "{\"rolloutGroup\":{\"sweden-gen-ai\":\"B\"},\"rolloutLastValue\":{\"sweden-gen-ai\":1}}"
+        },
+        {
+          "name": "debug",
+          "value": "undefined"
+        },
+        {
+          "name": "ajs_user_traits",
+          "value": "{}"
+        },
+        {
+          "name": "lastLoginMethod",
+          "value": "UsernamePw"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "MTQ1ZHgzbTFlYWNnYWs="
+        },
+        {
+          "name": "rc::f",
+          "value": "0aADHAg7Uuoc54vHU9-__vDihv1kBZjth7PYDaJ0zl7e8DhxYxX_9PBRH1Yb8Boy8ObkfBISE"
+        }
+      ]
+    }
+  ]
+}

@@ -23,6 +23,27 @@ export default defineConfig({
     trace: 'retain-on-failure',
   },
 
+  projects: [
+
+        // Authentication setup
+        {
+            name: 'setup',
+            testMatch: /auth\.setup\.js/,
+        },
+
+        // Main tests
+        {
+            name: 'chromium',
+            use: {
+                ...devices['Desktop Chrome'],
+
+                // Reuse authentication
+                storageState: 'auth/user.json'
+            },
+
+            dependencies: ['setup']
+        }
+    ]
   /*projects: [
     {
       name: 'chromium',
