@@ -5,6 +5,8 @@ class ResponsiblegamingPage {
         this.responsiblegaming = page.locator('a[data-at="list-item-link"]:has-text("Ansvarfullt spelande")');
         this.depositlimits = page.locator('a[href="/sv/sportsbook?sidebar=account%2Cmy-limits%2Cdeposit"]');
         this.dailylimitamount = page.locator('li[data-at="day-limit-list-item"] .link-list__value');
+        this.weeklylimitamount = page.locator('li[data-at="week-limit-list-item"] .link-list__value');
+        this.monthlylimitamount = page.locator('li[data-at="month-limit-list-item"] .link-list__value');
 
     }
 

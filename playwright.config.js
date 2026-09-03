@@ -14,6 +14,7 @@ export default defineConfig({
 
   fullyParallel: true,
   //workers: 5,
+  globalSetup: './tests/auth/globalSetup.js',
 
   use: {
     baseURL: environment.baseURL,
@@ -25,25 +26,32 @@ export default defineConfig({
 
   projects: [
 
-        // Authentication setup
-        {
-            name: 'setup',
-            testMatch: /auth\.setup\.js/,
-        },
+    // Main tests
+    {
+      name: 'unauthenticated',
 
-        // Main tests
-        {
-            name: 'chromium',
-            use: {
-                ...devices['Desktop Chrome'],
+      testMatch: 'Unauthenticated/**/*.spec.js',
 
-                // Reuse authentication
-                storageState: 'auth/user.json'
-            },
+      use: {
+        ...devices['Desktop Chrome'],
+        headless: false,
+      },
+    },
+    {
+      name: 'authenticated',
 
-            dependencies: ['setup']
-        }
-    ]
+      testMatch: 'Authenticated/**/*.spec.js',
+
+      use: {
+        ...devices['Desktop Chrome'],
+        storageState: 'auth/user.json',
+        headless: false,
+      },
+
+    },
+
+
+  ]
   /*projects: [
     {
       name: 'chromium',
