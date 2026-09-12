@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "_GRECAPTCHA",
-      "value": "09AKhCRwjZ8tv7owoYrMBXj10m7K1ggw8LqfBimfVK01wKGkK6ZhyXG4boalb82vlvgCgBiCGYToLvFwDd3Stb3bg",
+      "value": "09AKhCRwjtBss67s8zmaQsmNc08SW_aNhwezVwnt9Z0dbjGT-ovuWnkOOV1Co4xHSuK-tGc3WKnPoeojTdO1_444I",
       "domain": "www.google.com",
       "path": "/recaptcha",
-      "expires": 1804713068.095547,
+      "expires": 1804796807.92385,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
@@ -65,7 +65,7 @@
       "value": "true",
       "domain": ".comeon.cleverdolphin.se",
       "path": "/",
-      "expires": 1797050290.539953,
+      "expires": 1797134031.293038,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
@@ -81,81 +81,81 @@
       "sameSite": "Lax"
     },
     {
+      "name": "_gcl_au",
+      "value": "1.1.1479196729.1789244801",
+      "domain": ".cleverdolphin.se",
+      "path": "/",
+      "expires": 1797020800,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
       "name": "ajs_group_id",
       "value": "null",
       "domain": ".cleverdolphin.se",
       "path": "/",
-      "expires": 1820697060,
+      "expires": 1820780800,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "ajs_anonymous_id",
-      "value": "%2280c8f307-b9d0-4050-8881-0a0924693685%22",
+      "value": "%2265bcfac3-1b5b-4bdc-a3f0-14ec2244dbf1%22",
       "domain": ".cleverdolphin.se",
       "path": "/",
-      "expires": 1820697060,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_gcl_au",
-      "value": "1.1.1504799925.1789161061",
-      "domain": ".cleverdolphin.se",
-      "path": "/",
-      "expires": 1796937060,
+      "expires": 1820780800,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_ga",
-      "value": "GA1.1.591360838.1789161061",
+      "value": "GA1.1.835238197.1789244801",
       "domain": ".cleverdolphin.se",
       "path": "/",
-      "expires": 1823721061.287047,
+      "expires": 1823804801.122829,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "OptanonAlertBoxClosed",
-      "value": "2026-09-11T21:11:05.704Z",
+      "value": "2026-09-12T20:26:43.993Z",
       "domain": "comeon.cleverdolphin.se",
       "path": "/",
-      "expires": 1823721065.704311,
+      "expires": 1823804803.994028,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_clck",
-      "value": "nb4848%5E2%5Eg9d%5E1%5E2445",
+      "value": "hii4lz%5E2%5Eg9e%5E1%5E2446",
       "domain": ".cleverdolphin.se",
       "path": "/",
-      "expires": 1820697065,
+      "expires": 1820780803,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "OptanonConsent",
-      "value": "isGpcEnabled=0&datestamp=Fri+Sep+11+2026+23%3A11%3A05+GMT%2B0200+(Central+European+Summer+Time)&version=202606.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&genVendors=V8%3A0%2CV3%3A0%2CV9%3A0%2CV4%3A0%2CV6%3A0%2CV2%3A0%2C&consentId=f1a2c1e9-ca3b-4836-9b16-5f13305f79ae&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0004%3A1&fclco=&lastConsentTs=1789161065&intType=1&crTime=1789161065857",
+      "value": "isGpcEnabled=0&datestamp=Sat+Sep+12+2026+22%3A26%3A44+GMT%2B0200+(Central+European+Summer+Time)&version=202606.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&genVendors=V8%3A0%2CV3%3A0%2CV9%3A0%2CV4%3A0%2CV6%3A0%2CV2%3A0%2C&consentId=93cca257-7f18-4ab4-9dab-b485e5a7f533&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0004%3A1&fclco=&lastConsentTs=1789244803&intType=1&crTime=1789244804163",
       "domain": "comeon.cleverdolphin.se",
       "path": "/",
-      "expires": 1823721065.857969,
+      "expires": 1823804804.163648,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "MUID",
-      "value": "01E520D3563C6BBD092F3702576B6A1B",
+      "value": "37E860E2D970616B36BA7730D86D60BA",
       "domain": ".bing.com",
       "path": "/",
-      "expires": 1822857066.789219,
+      "expires": 1822940806.29576,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -165,17 +165,17 @@
       "value": "0",
       "domain": ".c.bing.com",
       "path": "/",
-      "expires": 1789765866.789263,
+      "expires": 1789849606.295791,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "SRM_B",
-      "value": "01E520D3563C6BBD092F3702576B6A1B",
+      "value": "37E860E2D970616B36BA7730D86D60BA",
       "domain": ".c.bing.com",
       "path": "/",
-      "expires": 1822857066.789342,
+      "expires": 1822940806.295805,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -192,10 +192,10 @@
     },
     {
       "name": "MUID",
-      "value": "01E520D3563C6BBD092F3702576B6A1B",
+      "value": "37E860E2D970616B36BA7730D86D60BA",
       "domain": ".clarity.ms",
       "path": "/",
-      "expires": 1822857066.841459,
+      "expires": 1822940805.465298,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -205,7 +205,7 @@
       "value": "0",
       "domain": ".c.clarity.ms",
       "path": "/",
-      "expires": 1789765866.841481,
+      "expires": 1789849605.465337,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -215,24 +215,24 @@
       "value": "0",
       "domain": ".c.clarity.ms",
       "path": "/",
-      "expires": 1789161666.841515,
+      "expires": 1789245405.465359,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "d_id",
-      "value": "af86a22c-49cb-4962-b223-a13920454d45",
+      "value": "5df15281-6aa0-4a7d-a8f3-0ec8e1137d91",
       "domain": ".comeon.cleverdolphin.se",
       "path": "/",
-      "expires": 1820697067,
+      "expires": 1820780805,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "sessionId",
-      "value": "42_178916106880215870cdd2e22561059a645d8_784ad4b3e848f42143_0",
+      "value": "42_17892448062859697571298480bd8d29073d5_784ad4b3e848f42143_0",
       "domain": ".comeon.cleverdolphin.se",
       "path": "/",
       "expires": -1,
@@ -252,7 +252,7 @@
     },
     {
       "name": "loggedInTime",
-      "value": "1789161068852",
+      "value": "1789244806525",
       "domain": ".comeon.cleverdolphin.se",
       "path": "/",
       "expires": -1,
@@ -272,7 +272,7 @@
     },
     {
       "name": "player-points",
-      "value": "10625",
+      "value": "10650",
       "domain": ".comeon.cleverdolphin.se",
       "path": "/",
       "expires": -1,
@@ -295,24 +295,14 @@
       "value": "%22163892040%22",
       "domain": ".cleverdolphin.se",
       "path": "/",
-      "expires": 1820697069,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "anonymousSessionId",
-      "value": "9e18cd04-af78-43f0-abb1-7d4f9dadcaf9",
-      "domain": ".comeon.cleverdolphin.se",
-      "path": "/",
-      "expires": -1,
+      "expires": 1820780806,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "g_uid",
-      "value": "2ef7e30b622087847e459918cddc919a10bab3695c728208844b",
+      "value": "d892ce9dd8b0b04b2ca3e4933c296973e6a03f89e120ffe2fc9f",
       "domain": "api.graphyte.ai",
       "path": "/",
       "expires": -1,
@@ -321,11 +311,21 @@
       "sameSite": "None"
     },
     {
+      "name": "anonymousSessionId",
+      "value": "aa8c8239-ef63-4e27-bdaf-e0dbf4b80ce1",
+      "domain": ".comeon.cleverdolphin.se",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
       "name": "_clsk",
-      "value": "ddbkec%5E1789161069833%5E3%5E1%5Ee.clarity.ms%2Fcollect",
+      "value": "c28p0q%5E1789244807573%5E3%5E1%5Ek.clarity.ms%2Fcollect",
       "domain": ".cleverdolphin.se",
       "path": "/",
-      "expires": 1789247469,
+      "expires": 1789331207,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -335,40 +335,30 @@
       "value": "1",
       "domain": ".adform.net",
       "path": "/",
-      "expires": 1791753070.735093,
+      "expires": 1791836808.286487,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "uid",
-      "value": "4945035422961218588",
+      "value": "6452608992885155570",
       "domain": ".adform.net",
       "path": "/",
-      "expires": 1794345070.813577,
+      "expires": 1794428808.320557,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "_ga_DGG95YFBQJ",
-      "value": "GS2.1.s1789161061$o1$g1$t1789161071$j55$l0$h0",
+      "value": "GS2.1.s1789244801$o1$g1$t1789244808$j56$l0$h0",
       "domain": ".cleverdolphin.se",
       "path": "/",
-      "expires": 1823721071.238271,
+      "expires": 1823804808.425093,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
-    },
-    {
-      "name": "SEUNCY",
-      "value": "302AEF3B8EA342F0",
-      "domain": ".semasio.net",
-      "path": "/",
-      "expires": 1820697071.250049,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
     }
   ],
   "origins": [
@@ -376,43 +366,43 @@
       "origin": "https://comeon.cleverdolphin.se",
       "localStorage": [
         {
-          "name": "ada-functional-storage",
-          "value": "{\"rolloutGroup\":{\"sweden-gen-ai\":\"B\"},\"rolloutLastValue\":{\"sweden-gen-ai\":1}}"
-        },
-        {
           "name": "ada-embed-manifest-cache",
           "value": "\"{\\\"versions\\\":[{\\\"tag\\\":\\\"stable\\\",\\\"hash\\\":\\\"0c777960a39f15e3e105977dbdd336fb4f14da44\\\",\\\"weight\\\":1}]}\""
+        },
+        {
+          "name": "segmentio.78589423-a57c-45f2-a9b9-4895917ba011.reclaimEnd",
+          "value": "null"
         },
         {
           "name": "ada-embed_chat-manifest-cache",
           "value": "\"{\\\"versions\\\":[{\\\"tag\\\":\\\"stable\\\",\\\"hash\\\":\\\"8bc21c1fedc404e8b2d0fb8681d4d036b8fabd7f\\\",\\\"weight\\\":1}]}\""
         },
         {
+          "name": "segmentio.78589423-a57c-45f2-a9b9-4895917ba011.inProgress",
+          "value": "{}"
+        },
+        {
+          "name": "segmentio.78589423-a57c-45f2-a9b9-4895917ba011.ack",
+          "value": "1789244807970"
+        },
+        {
           "name": "ajs_group_properties",
           "value": "{}"
         },
         {
-          "name": "segmentio.690eab60-8672-45f7-900f-f897ff6d99ee.inProgress",
-          "value": "{}"
-        },
-        {
           "name": "_gcl_ls",
-          "value": "{\"schema\":\"gcl\",\"version\":1,\"gsid_dc\":{\"value\":{\"joinId\":\"dcxlZ2eup-UHNUhe4HIrNM2-7DI4HlXBQw\",\"lastJoinedTimeMs\":1789161060594},\"expires\":1789161360594},\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1789161060595},\"expires\":1796937060595}}"
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gsid_dc\":{\"value\":{\"joinId\":\"FO_Te89-GHKRwW7aUiOYJepiOn1TKVPvzw\",\"lastJoinedTimeMs\":1789244800851},\"expires\":1789245100851},\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1789244800852},\"expires\":1797020800852}}"
         },
         {
           "name": "ada-embed_chat-assigned-version",
           "value": "\"8bc21c1fedc404e8b2d0fb8681d4d036b8fabd7f\""
         },
         {
-          "name": "segmentio.690eab60-8672-45f7-900f-f897ff6d99ee.ack",
-          "value": "1789161070632"
-        },
-        {
-          "name": "segmentio.690eab60-8672-45f7-900f-f897ff6d99ee.queue",
+          "name": "segmentio.78589423-a57c-45f2-a9b9-4895917ba011.queue",
           "value": "[]"
         },
         {
-          "name": "segmentio.690eab60-8672-45f7-900f-f897ff6d99ee.reclaimEnd",
+          "name": "segmentio.78589423-a57c-45f2-a9b9-4895917ba011.reclaimStart",
           "value": "null"
         },
         {
@@ -424,20 +414,20 @@
           "value": "\"0c777960a39f15e3e105977dbdd336fb4f14da44\""
         },
         {
-          "name": "segmentio.690eab60-8672-45f7-900f-f897ff6d99ee.reclaimStart",
-          "value": "null"
+          "name": "ada-functional-storage",
+          "value": "{\"rolloutGroup\":{\"sweden-gen-ai\":\"B\"},\"rolloutLastValue\":{\"sweden-gen-ai\":1}}"
         },
         {
           "name": "debug",
           "value": "undefined"
         },
         {
-          "name": "lastLoginMethod",
-          "value": "UsernamePw"
-        },
-        {
           "name": "ajs_user_traits",
           "value": "{}"
+        },
+        {
+          "name": "lastLoginMethod",
+          "value": "UsernamePw"
         }
       ]
     },
@@ -446,11 +436,11 @@
       "localStorage": [
         {
           "name": "rc::a",
-          "value": "bmVsZXd1MWNmZ21xdQ=="
+          "value": "MWZlNzhvanRsOW9m"
         },
         {
           "name": "rc::f",
-          "value": "0aAMs4f82xFnWzMJ2WCC8ap3_NRKrL3AnU04MPL_bPYoSyzpHLQINgGk30L7Vj-1PAmg2lD2U"
+          "value": "0aAMs4f83aMdQfrlRhdX4R67U5PU8osSy_dJRhvlmqcensN0EZjmnboWBHqYNXO971RM-N7CY"
         }
       ]
     }
